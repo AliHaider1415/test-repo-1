@@ -2940,7 +2940,7 @@ blockquote:before {
 .logo-footer img {
     height: auto;
 	width: 100%;
-	max-width: 180px;
+	max-width: 120px;
 }
 .logo-header span,
 .logo-footer span {
@@ -13797,8 +13797,11 @@ ol.commentlist li .star-rating {
 		box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.6);
 	}
 	.mo-left .header-nav .logo-header {
-		display: block;
-		float: none;
+		/* display: block;
+		float: none; */
+        display: flex !important;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
 		height: auto;
 		max-width: 100%;
 		padding: 30px 15px;
@@ -13806,7 +13809,7 @@ ol.commentlist li .star-rating {
 	}
 	.mo-left .header-nav .logo-header img{
 		max-width: unset;
-		width: 160px;
+		width: 180px;
 		vertical-align: middle;
 	}
 	.mo-left .navbar-toggler.open span{

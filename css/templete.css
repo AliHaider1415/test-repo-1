@@ -6496,7 +6496,12 @@ HOME 5 Box Header
 
 @media (min-width: 1200px){
 	.container {
-		max-width: 1200px;
+		max-width: 1300px;
+	}
+}
+@media (min-width: 990px) and (max-width: 1200px){
+	.container {
+		max-width: 2000px;
 	}
 }
 @media only screen and (max-width: 991px){
