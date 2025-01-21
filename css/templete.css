@@ -3938,6 +3938,7 @@ HOME 5 Box Header
 }
 .service-box-4 .service-images img {
     width: 220px;
+	height: 220px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 30px 0px;
     border-radius: 500px;
     border-width: 10px;
@@ -5113,6 +5114,7 @@ HOME 5 Box Header
 	}
 	
 }
+
 
 /* dlab team 4 */
 .dlab-team4{ 
